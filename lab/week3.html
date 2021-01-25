@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musiccessories</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="mx-auto container">
+    <div class="px-4 md:px-0 flex items-center mt-8">
+      <h1 class="text-xl flex-auto">
+        <a href="index.html">
+          <span class="font-medium text-gray-500">Hi! Welcome to</span>
+          <span
+            class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Musiccessories!</span>
+        </a>
+      </h1>
+
+      <p class="flex-auto font-bold text-right product-count">
+        <!-- Output here -->
+      </p>
+    </div>
+
+    <div class="promotions md:flex md:space-x-4">
+      <!-- Output here -->
+    </div>
+
+    <div class="products md:-mx-4 mt-8 flex flex-wrap">
+      <!-- Output here -->
+    </div>
+  </div>
+
+  <script src="database.js"></script>
+  <script src="week3.js"></script>
+  <script src="handler.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', pageLoad)
+    window.addEventListener('DOMContentLoaded', handleDOM)
+  </script>
+</body>
+
+</html>

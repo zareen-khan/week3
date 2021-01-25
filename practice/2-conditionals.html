@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIEI-451: Conditionals</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+  <script src="2-conditionals.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', pageLoad)
+  </script>
+</head>
+
+<body class="p-8">
+  <div class="container mx-auto">
+    <h1 class="text-4xl">Lesson 2: Conditionals</h1>
+
+    <div class="border border-gray-400 bg-gray-200 p-4 my-4">
+      Goals: In the corresponding JavaScript file, <span
+        class="bg-orange-100 text-red-400 font-mono p-1">practice/2-conditionals.js</span>, we're starting with the 
+        solved code from the first example - a random number between 1 and 6 as <span class="bg-orange-100 text-red-400 font-mono p-1">die1</span>,
+      another random number between 1 and 6 as <span class="bg-orange-100 text-red-400 font-mono p-1">die2</span>,
+      and the total as <span class="bg-orange-100 text-red-400 font-mono p-1">total</span>. From there, let's play 
+      <a class="text-blue-500 underline" href="https://en.wikipedia.org/wiki/Craps#Rules_of_play" target="_blank">craps</a> –
+      if the total is 7 or 11 ("natural winner"), display "You win!"; if the total is 2, 3, or 12 ("craps"), display "You lose!". 
+      Otherwise, display a message that the "point" is set at the number rolled, e.g. "the point is 6". The message is already set
+      to display the value of the variable <span class="bg-orange-100 text-red-400 font-mono p-1">output</span>.
+    </div>
+
+    <!-- Placeholders -->
+    <img src="" class="inline w-16 die1">
+    <img src="" class="inline w-16 die2">
+
+    <p>The total is <span class="total">undefined</span>... <span class="output"></span></p>
+  </div>
+</body>
+
+</html>
